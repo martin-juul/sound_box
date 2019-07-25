@@ -1,0 +1,153 @@
+name: sound_box
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_service: ">=0.3.0"
+  bloc: ">=0.14.4"
+  fancy_bottom_navigation:
+  flushbar:
+  flutter_cache_manager:
+  cached_network_image: ">=1.1.0"
+  collection: ">=1.14.11"
+  connectivity: ">=0.4.3+6"
+  device_info: ">=0.4.0+2"
+  dio: ">=2.1.13"
+  dynamic_theme: ">=1.0.1"
+  fluro: ">=1.5.1"
+  flutter_launcher_icons: ">=0.7.2+1"
+  flutter_screenutil: ">=0.5.3"
+  flutter_typeahead: ">=1.6.1"
+  font_awesome_flutter: ">=8.5.0"
+  path_provider: ">=1.2.0"
+  platty: ">=0.0.8"
+  layout: ">=0.3.0"
+  permission_handler: ">=3.2.1+1"
+  pool: ">=1.4.0"
+  rxdart: ">=0.22.1"
+  scoped_model: ">=1.0.1"
+  streaming_shared_preferences: ">=1.0.1"
+  sqflite: ">=1.1.6"
+  timeago: ">=2.0.17"
+  catcher: ">=0.1.8"
+  cirrus_flutter_udid: ">=2.0.0+2"
+  moor_flutter:
+  simple_auth:
+  simple_auth_flutter:
+  fl_chart:
+  flutter_svg:
+  get_version:
+  flutter_slidable:
+  flutter_offline:
+  reorderables:
+  flutter_flipperkit:
+    git:
+      url: https://github.com/blankapp/flutter_flipperkit
+      ref: stable
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ">=0.1.2"
+
+dev_dependencies:
+  pedantic: ">=1.8.0+1"
+  build_runner:
+  simple_auth_generator:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: false
+
+  assets:
+    - assets/icon/icon.svg
+    - assets/icon/icon-2x.png
+
+  fonts:
+    - family: Poppins Black
+      fonts:
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-BlackItalic.ttf
+          style: italic
+
+    - family: Poppins Bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          style: italic
+
+    - family: Poppins ExtraBold
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-ExtraBoldItalic.ttf
+          style: italic
+
+    - family: Poppins ExtraLight
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-ExtraLightItalic.ttf
+          style: italic
+
+    - family: Poppins Light
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          style: italic
+
+    - family: Poppins Medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          style: italic
+
+    - family: Poppins Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-RegularItalic.ttf
+          style: italic
+
+    - family: Poppins SemiBold
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          style: italic
+
+    - family: Poppins Thin
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ThinItalic.ttf
+          style: italic
+
